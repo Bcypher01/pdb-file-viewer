@@ -1,5 +1,16 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# PDB Uploader and Viewer
+
+This is a **Next.js** project that allows users to upload and visualize Protein Data Bank (PDB) files using the **NGL Viewer** library. It is designed with a modern **dark theme** and utilizes **Tailwind CSS** for styling.
+
+## Features
+
+- **File Upload**: Users can upload `.pdb` files to view 3D molecular structures.
+- **3D Visualization**: Renders molecular structures interactively using the NGL Viewer.
+- **Responsive Design**: Optimized for various screen sizes with Tailwind CSS.
+- **Dark Theme**: Provides a visually appealing interface suitable for scientific applications.
+
 ## Getting Started
 
 First, run the development server:
@@ -19,6 +30,19 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Project Structure
+
+- **`components/FileUploader.js`**: Handles file selection and reading of PDB files.
+- **`components/PdbViewer.js`**: Integrates the NGL Viewer library to render 3D molecular structures.
+- **`pages/index.js`**: Combines the components and defines the main layout and logic of the app.
+- **`tailwind.config.js`**: Configures Tailwind CSS for styling.
+
+## Technology Stack
+
+- **Next.js**: Framework for building React applications.
+- **NGL Viewer**: Library for interactive 3D visualization of molecular structures.
+- **Tailwind CSS**: Utility-first CSS framework for responsive styling.
 
 ## Learn More
 

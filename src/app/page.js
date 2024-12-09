@@ -23,7 +23,7 @@ export default function Home() {
         <NavigationMenu />
       </div>
 
-      <main className="min-h-screen bg-gray-900 text-white flex flex-col items-center pt-24">
+      <main className="min-h-screen bg-gray-900 text-white flex flex-col items-center pt-16">
         {/* Upload pdb file */}
         <div className="text-center mb-6">
           <h1 className="text-4xl font-semibold mb-4">PDB Uploader</h1>
